@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Lora", serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Police de base */
+    background-color: #ffffff; /* Couleur de fond de la page */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 20px; /* Padding autour du contenu principal */
+}
+
+.container {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur */
+}
+
+header, .about, .experience, .education, .skills, .interests, footer {
+    background-color: #f0f0f0; /* Couleur de fond pour les sections */
+    margin: 20px auto; /* Espace entre les sections et les centrer */
+    padding: 15px; /* Padding à l'intérieur des sections */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: calc(100% - 40px); /* Prend toute la largeur moins le padding */
+    max-width: 800px; /* Limite la largeur pour garder l'esthétique */
+}
+
+h2 {
+    margin-top: 0; /* Enlève la marge en haut du titre */
+}
+
+footer {
+    text-align: center; /* Centre le texte du footer */
+}
+
+
+
+/* Header section */
+header {
+  background-color: #7ECE90;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Pour rendre l'image circulaire */
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: 150px; /* Ajustez la taille selon vos besoins */
+    object-fit: cover; /* Pour s'assurer que l'image s'adapte bien */
+    border: 5px solid white; /* Bordure blanche pour l'image */
+}
+
+
+
+header h1 {
+  margin-top: 20px;
+  font-size: 2.2em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: seagreen;
+}
+
+/* Section styles */
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Remove underline from specific link */
+a.no-underline {
+  text-decoration: none;
+  color: #6B72E1;
+}
+
+a.no-underline:hover {
+  color: seagreen;
+}
+
+/* Footer section */
+footer {
+  background-color: #575F7D;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .socials {
+  list-style: none;
+  padding: 0;
+}
+
+footer .socials li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer .socials a {
+  color: white;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+footer .socials a:hover {
+  color: seagreen;
+}
